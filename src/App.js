@@ -8,7 +8,7 @@ const book = {
   image: 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51AudOuC4-L.jpg',
   width: '264',
   height: '378'
- };
+};
  
 function Bookshelf() {
  return (
