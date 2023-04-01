@@ -27,7 +27,7 @@ const book = {
   title: 'A Farwell to Arms',
   author: 'Earnest Hemingway',
   published: '1929',
-  image: '',
+  image: 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51AudOuC4-L.jpg',
   width: '264',
   height: '378'
 }
@@ -35,16 +35,26 @@ const book = {
 function Bookshelf() {
   return (
     <>
-      <h2></h2>
-      <p></p>
+      <h2>{Bookshelf.title} ({book.published})</h2>
+      <p>{book.author}</p>
       <img>
         className="bookCover"
-        src={book.title + 'cover'}
+        src={book.image}
+        alt={book.title + 'cover'}
         style={{
           width: book.width,
           height: book.height
         }}
       </img>
+    </>
+  );
+}
+
+function MagicButton() {
+  return (
+    <>
+      <h3>This is a magic button</h3>
+      <button>Magic</button>
     </>
   );
 }
