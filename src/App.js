@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 
@@ -35,19 +35,18 @@ const book = {
 
 function Bookshelf() {
  return (
-   <>
+   <div>
      <h2>{Bookshelf.title} ({book.published})</h2>
      <p>{book.author}</p>
      <img>
        className="bookCover"
        src={book.image}
-       alt={book.title + 'cover'}
        style={{
          width: book.width,
          height: book.height
        }}
      </img>
-   </>
+   </div>
  );
 }
 
