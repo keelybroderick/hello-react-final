@@ -15,14 +15,15 @@ function Bookshelf() {
    <div>
      <h2>{book.title} ({book.published})</h2>
      <p>{book.author}</p>
-     <img alt="imgjk">
+     <img
         className="bookCover"
         src={book.image}
+        alt={book.title + ' cover'}
         style={{
           width: book.width,
           height: book.height
         }}
-     </img>
+     />
     </div>
   );
 }
