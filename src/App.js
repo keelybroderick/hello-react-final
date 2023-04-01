@@ -38,13 +38,14 @@ function Bookshelf() {
    <div>
      <h2>{Bookshelf.title} ({book.published})</h2>
      <p>{book.author}</p>
-     <img>
+     <img alt="imgjk">
        className="bookCover"
        src={book.image}
        style={{
-         width: book.width,
-         height: book.height
-       }}
+        width: book.width,
+        height: book.height
+
+      }}
      </img>
    </div>
  );
@@ -63,13 +64,13 @@ function MagicButton() {
 
 function App() {
  return (
-   <div className="App">
-     <header className="App-header">
-       <ZineRack />
-       <Bookshelf />
-       <MagicButton />
-     </header>
-   </div>
+  <div className="App">
+    <header className="App-header">
+      <ZineRack />
+      <Bookshelf />
+      <MagicButton />
+    </header>
+  </div>
  );
 }
 
