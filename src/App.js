@@ -23,8 +23,8 @@ function App() {
         >
           Learn React with kiwi!
         </a>
+        <MagicButton />
       </header>
-      <MagicButton />
     </div>
   );
 }
