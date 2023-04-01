@@ -24,7 +24,7 @@ function App() {
           Learn React with MSU!
         </a>
       </header>
-      <MagicButton></MagicButton>
+      <MagicButton />
     </div>
   );
 }
