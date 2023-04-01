@@ -21,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with MSU!
+          Learn React with kiwi!
         </a>
       </header>
       <MagicButton />
