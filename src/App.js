@@ -1,4 +1,4 @@
-
+import { supabase } from './supabaseClient';
 import './App.css';
 
 const magazines = [
