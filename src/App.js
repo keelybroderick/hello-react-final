@@ -57,7 +57,7 @@ function Bookshelf() {
 
 function MagicButton() {
   const [count, setCount] = useState(0);
-  function doMagic {
+  function doMagic () {
     setCount(count + 1);
   }
   return (
