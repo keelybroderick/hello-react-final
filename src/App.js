@@ -16,7 +16,7 @@ function Library() {
     {
       setMyBooks.map(b => {
         <tr>
-          <td>{b.title}</td>
+          <td>f{b.title}</td>
           <td>{b.author}</td>
           <td>{b.isbn}</td>
         </tr>
@@ -25,8 +25,6 @@ function Library() {
     </table>
   );
 }
-
-
 
 
 const magazines = [
