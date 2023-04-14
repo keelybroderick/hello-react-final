@@ -14,13 +14,13 @@ function Library() {
   return (
     <table>
     {
-      myBook.map(b => {
+      myBook.map(b => (
         <tr>
           <td>f{b.title}</td>
           <td>{b.author}</td>
           <td>{b.isbn}</td>
         </tr>
-      })
+      ))
     }
     </table>
   );
